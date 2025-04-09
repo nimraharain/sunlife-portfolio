@@ -81,7 +81,6 @@ const App = () => {
               <li className="nav-item"><a className="nav-link" href="#genai">Gen AI Project</a></li>
               <li className="nav-item"><a className="nav-link" href="#sharepoint">SharePoint Developer Gig</a></li>
 
-
             </ul>
           </div>
         </div>
@@ -111,6 +110,7 @@ const App = () => {
       <section id="jira" className="section bg-lightblue">
         <div className="container">
           <h3 className="mb-3">Jira Automations & Project Management</h3>
+          <p className="fade-in-text lead text-dark mb-4"></p>
           <ul>
             <li>Created advanced Jira automations using JQL and JSON (e.g. auto-email assignees of overdue issues using <code>#lookupIssues</code>).</li>
             <li>Built validator rules to prevent tickets from transitioning if certain conditions aren't met (e.g. child issues incomplete).</li>
@@ -125,6 +125,7 @@ const App = () => {
       <section id="confluence" className="section bg-light">
         <div className="container">
           <h3 className="mb-3">Confluence UX & Resource Hubs</h3>
+          <p className="fade-in-text lead text-dark mb-4"></p>
           <ul>
             <li>Redesigned a team’s Confluence page to follow UX design principles.</li>
             <li>Took the initiative to create and manage Confluence pages for co-op students, compiling all essential resources in one hub (highly praised by peers).</li>
@@ -137,6 +138,7 @@ const App = () => {
       <section id="api" className="section bg-lightblue">
         <div className="container">
           <h3 className="mb-3">REST API & Python Scripting</h3>
+          <p className="fade-in-text lead text-dark mb-4"></p>
           <ul>
             <li>Developed Python scripts using Confluence REST API to generate reports.</li>
             <li>Examples: report of broken links, all page URLs, space permissions, and full page body content.</li>

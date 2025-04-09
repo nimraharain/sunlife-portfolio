@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   const bgImage = process.env.PUBLIC_URL + "/tech.png";
   const teamPhoto = process.env.PUBLIC_URL + "/0.png";
-  const sunLifeLogo = process.env.PUBLIC_URL + "/sunlife.png";
 
   const [showTopButton, setShowTopButton] = useState(false);
 
@@ -60,9 +59,8 @@ const App = () => {
         style={{ backgroundColor: "#0E3846" }}
       >
         <div className="container">
-          <a className="navbar-brand fw-bold" href="#intro">
-            <img src={sunLifeLogo} alt="Sun Life Logo" style={{ height: "70px", width: "auto" }} />
-          </a>
+        <a className="navbar-brand fw-bold" href="#intro">Sun Life Financial</a>
+
           <button
             className="navbar-toggler"
             type="button"

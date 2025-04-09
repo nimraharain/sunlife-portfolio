@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sunlife-portfolio/static/css/main.a2c61b6f.css",
+    "main.css": "/sunlife-portfolio/static/css/main.6bab9835.css",
     "main.js": "/sunlife-portfolio/static/js/main.f27d0bdd.js",
     "index.html": "/sunlife-portfolio/index.html",
-    "main.a2c61b6f.css.map": "/sunlife-portfolio/static/css/main.a2c61b6f.css.map",
+    "main.6bab9835.css.map": "/sunlife-portfolio/static/css/main.6bab9835.css.map",
     "main.f27d0bdd.js.map": "/sunlife-portfolio/static/js/main.f27d0bdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2c61b6f.css",
+    "static/css/main.6bab9835.css",
     "static/js/main.f27d0bdd.js"
   ]
 }

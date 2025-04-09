@@ -79,6 +79,8 @@ const App = () => {
               <li className="nav-item"><a className="nav-link" href="#api">Python & APIs</a></li>
               <li className="nav-item"><a className="nav-link" href="#ci">CI Challenge</a></li>
               <li className="nav-item"><a className="nav-link" href="#genai">Gen AI Project</a></li>
+              <li className="nav-item"><a className="nav-link" href="#sharepoint">SharePoint Developer Gig</a></li>
+
 
             </ul>
           </div>

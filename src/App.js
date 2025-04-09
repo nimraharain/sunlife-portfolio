@@ -188,7 +188,7 @@ const App = () => {
         <div className="container">
           <h3 className="mb-3">SharePoint Developer Gig – Service Optimization Chapter</h3>
           <p className="fade-in-text lead text-dark" style={{ marginBottom: "1.5rem" }}>
-            <strong>As part of my role as a SharePoint Developer within the Service Optimization Chapter at Sun Life, I designed and developed intuitive playbook templates to enhance internal knowledge sharing.</strong>
+            <strong>As part of my role as a SharePoint Developer within the Service Optimization Chapter team at Sun Life, I designed and developed intuitive playbook templates to enhance internal knowledge sharing.</strong>
           </p>
           <p className="fade-in-text lead text-dark">
               <strong>I applied user experience (UX) design principles to ensure the templates were accessible, easy to navigate, and visually structured for clarity. Using Miro, I wireframed layouts and worked closely with my team to gather feedback and iterate on the design. These templates improved onboarding, documentation consistency, and team collaboration by making complex information easier to understand and use.</strong>

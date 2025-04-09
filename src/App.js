@@ -180,6 +180,19 @@ const App = () => {
       Called the EVE Implementation, this system aims to significantly improve the accuracy, contextual understanding, and relevance of AI-generated responses. By enhancing search functionality for Sun Life employees, we hope to transform how information is accessed and used across the organization—creating more efficient, accurate, and user-friendly experiences.
     </p>
   </div>
+  {/* SharePoint Playbook Project Section */}
+      <section id="sharepoint" className="section bg-white py-5">
+        <div className="container">
+          <h3 className="mb-3">SharePoint Playbook Template Design – Service Optimization Chapter</h3>
+          <p className="fade-in-text lead text-dark" style={{ marginBottom: "1.5rem" }}>
+            As part of my role as a SharePoint Developer within the Service Optimization Chapter at Sun Life, I designed and developed intuitive playbook templates to enhance internal knowledge sharing.
+          </p>
+          <p className="fade-in-text lead text-dark">
+            I applied user experience (UX) design principles to ensure the templates were accessible, easy to navigate, and visually structured for clarity. Using Miro, I wireframed layouts and worked closely with stakeholders to gather feedback and iterate on the design. These templates improved onboarding, documentation consistency, and team collaboration by making complex information easier to understand and use.
+          </p>
+        </div>
+      </section>
+
 </section>
 
 

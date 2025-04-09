@@ -180,7 +180,7 @@ const App = () => {
          <div className="container">
            <h3 className="mb-3">Gen AI Project – EVE Implementation</h3>
            <p className="fade-in-text lead text-dark" style={{ marginBottom: "1.5rem" }}>
-              <strong>I'm excited to be working with Cynthia and the DEET team on an upcoming Gen AI initiative at Sun Life. The project focuses on implementing a Semantic Retrieval Augmented Generation (RAG) search system, powered by knowledge graphs.</strong>
+              <strong>I'm excited to be working with Cynthia from the DEET team on an upcoming Gen AI initiative at Sun Life. The project focuses on implementing a Semantic Retrieval Augmented Generation (RAG) search system, powered by knowledge graphs.</strong>
             </p>
     <p className="fade-in-text lead text-dark">
       <strong>Called the EVE Implementation, this system aims to significantly improve the accuracy, contextual understanding, and relevance of AI-generated responses. By enhancing search functionality for Sun Life employees, we hope to transform how information is accessed and used across the organization—creating more efficient, accurate, and user-friendly experiences.</strong>

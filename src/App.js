@@ -147,11 +147,11 @@ const App = () => {
         <div className="container">
           <h3 className="mb-3">DBTS Continuous Improvement Challenge</h3>
           <p className="fade-in-text lead text-dark mb-4">
-            Collaborated on an idea with my team to preserve knowledge of retiring employees working on legacy mainframe systems.
+            <strong>Collaborated on an idea with my team to preserve knowledge of retiring employees working on legacy mainframe systems.
             We proposed a mentorship-based course creation program using My Learning Navigator.
-            Mentees would shadow experienced mentors and compile training materials to transfer institutional knowledge efficiently.
+            Mentees would shadow experienced mentors and compile training materials to transfer institutional knowledge efficiently.</strong>
             <br /><br />
-            <strong>Team Members:</strong> jacob.dagan@sunlife.com, jane.ugbelase@sunlife.com, stella.delorey@sunlife.com, zeel.thakkar@sunlife.com
+            <strong>Team Members: jacob.dagan@sunlife.com, jane.ugbelase@sunlife.com, stella.delorey@sunlife.com, zeel.thakkar@sunlife.com</strong>
           </p>
           
           {/* Image under the text */}
@@ -176,24 +176,24 @@ const App = () => {
          <div className="container">
            <h3 className="mb-3">Gen AI Project – EVE Implementation</h3>
            <p className="fade-in-text lead text-dark" style={{ marginBottom: "1.5rem" }}>
-              I'm excited to be working with Cynthia and the DEET team on an upcoming Gen AI initiative at Sun Life. The project focuses on implementing a Semantic Retrieval Augmented Generation (RAG) search system, powered by knowledge graphs.
+              <strong>I'm excited to be working with Cynthia and the DEET team on an upcoming Gen AI initiative at Sun Life. The project focuses on implementing a Semantic Retrieval Augmented Generation (RAG) search system, powered by knowledge graphs.</strong>
             </p>
     <p className="fade-in-text lead text-dark">
-      Called the EVE Implementation, this system aims to significantly improve the accuracy, contextual understanding, and relevance of AI-generated responses. By enhancing search functionality for Sun Life employees, we hope to transform how information is accessed and used across the organization—creating more efficient, accurate, and user-friendly experiences.
+      <strong>Called the EVE Implementation, this system aims to significantly improve the accuracy, contextual understanding, and relevance of AI-generated responses. By enhancing search functionality for Sun Life employees, we hope to transform how information is accessed and used across the organization—creating more efficient, accurate, and user-friendly experiences.</strong>
     </p>
   </div>
   </section>
   {/* SharePoint Playbook Project Section */}
       <section id="sharepoint" className="section bg-light">
         <div className="container">
-          <h3 className="mb-3">SharePoint Developer Gig – Service Optimization Chapter</h3>
+          <h3 className="mb-3">SharePoint Playbook Template Design – Service Optimization Chapter</h3>
           <p className="fade-in-text lead text-dark" style={{ marginBottom: "1.5rem" }}>
-            As part of my role as a SharePoint Developer within the Service Optimization Chapter at Sun Life, I designed and developed intuitive playbook templates to enhance internal knowledge sharing.
+            <strong>As part of my role as a SharePoint Developer within the Service Optimization Chapter at Sun Life, I designed and developed intuitive playbook templates to enhance internal knowledge sharing.</strong>
           </p>
           <p className="fade-in-text lead text-dark">
-              I applied user experience (UX) design principles to ensure the templates were accessible, easy to navigate, and visually structured for clarity. Using Miro, I wireframed layouts and worked closely with my team to gather feedback and iterate on the design. These templates improved onboarding, documentation consistency, and team collaboration by making complex information easier to understand and use.
+              <strong>I applied user experience (UX) design principles to ensure the templates were accessible, easy to navigate, and visually structured for clarity. Using Miro, I wireframed layouts and worked closely with my team to gather feedback and iterate on the design. These templates improved onboarding, documentation consistency, and team collaboration by making complex information easier to understand and use.</strong>
               <br /><br />
-              <strong>Team Members:</strong> juliana.l.gonzalez@sunlife.com, david.koljin@sunlife.com, christopher.lo@sunlife.com
+              <strong>Team Members: juliana.l.gonzalez@sunlife.com, david.koljin@sunlife.com, christopher.lo@sunlife.com</strong>
             </p>
 
         </div>

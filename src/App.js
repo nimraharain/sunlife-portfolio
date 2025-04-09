@@ -186,7 +186,7 @@ const App = () => {
   {/* SharePoint Playbook Project Section */}
       <section id="sharepoint" className="section bg-light">
         <div className="container">
-          <h3 className="mb-3">SharePoint Playbook Template Design – Service Optimization Chapter</h3>
+          <h3 className="mb-3">SharePoint Developer Gig – Service Optimization Chapter</h3>
           <p className="fade-in-text lead text-dark" style={{ marginBottom: "1.5rem" }}>
             As part of my role as a SharePoint Developer within the Service Optimization Chapter at Sun Life, I designed and developed intuitive playbook templates to enhance internal knowledge sharing.
           </p>

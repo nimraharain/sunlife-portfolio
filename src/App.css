@@ -15,10 +15,9 @@ body {
   color: inherit;
 }
 
-
 .section {
-  padding: 10px 0;              /* Reduce vertical padding */
-  margin: 15px auto 10px auto;  /* Top/bottom spacing between cards */
+  padding: 10px 0;              
+  margin: 15px auto 10px auto;  
   color: #000;
   border-radius: 15px;
   width: 100%;

@@ -158,10 +158,10 @@ const App = () => {
             alt="CI Challenge Visual" 
             className="img-fluid rounded shadow"
             style={{
-              display: "block",              // Make it a block element
-              maxWidth: "60%",              // Limit width
+              display: "block",              
+              maxWidth: "60%",              
               height: "auto",
-              margin: "20px auto 0",        // Center horizontally and add top margin
+              margin: "20px auto 0",       //center
               borderRadius: "12px"
             }}
           />

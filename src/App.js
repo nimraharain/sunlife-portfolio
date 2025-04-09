@@ -1,28 +1,32 @@
+//Import reach and built in hooks (for animations and dynamic values)
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';//For collapsable nav bar etc
+import 'bootstrap/dist/css/bootstrap.min.css'; //Prebuilt system like grid system
 
 
-
+//get images from /public folder
 const App = () => {
   const bgImage = process.env.PUBLIC_URL + "/tech.png";
   const teamPhoto = process.env.PUBLIC_URL + "/0.png";
 
+  //create boolean state -> tracks if scroll-to-top button appears
   const [showTopButton, setShowTopButton] = useState(false);
 
+  //watch when sections scroll into view
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
+            entry.target.classList.add("visible"); //visible class added for fade in animation
           }
         });
       },
       { threshold: 0.1 }
     );
 
+    //watch elements for scroll animation
     document.querySelectorAll(".section").forEach((section) => {
       observer.observe(section);
     });
@@ -32,20 +36,21 @@ const App = () => {
     });
 
     const handleScroll = () => {
-      setShowTopButton(window.scrollY > 300);
+      setShowTopButton(window.scrollY > 300); //button appears if page scrolled more than 300px
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll); //remove scroll listener when component unmounts
   }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "smooth" }); //smooth transition to top when button clicked
   };
 
   return (
     <div
       style={{
+        //set a full-screen fixed background using image
         background: `url(${bgImage}) no-repeat center center fixed`,
         backgroundSize: "cover",
         //minHeight: "100vh",
@@ -70,7 +75,7 @@ const App = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto"> 
               <li className="nav-item"><a className="nav-link" href="#intro">Intro</a></li>
               <li className="nav-item"><a className="nav-link" href="#jira">Jira Automations</a></li>
               <li className="nav-item"><a className="nav-link" href="#confluence">Confluence</a></li>

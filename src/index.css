@@ -1,19 +1,10 @@
+/* smooth scrolling behavior when using anchor links  */
 html {
   scroll-behavior: smooth;
 }
 
+/* vertical spacing (padding) to all section blocks  */
 .section {
   padding: 60px 0;
 }
 
-.bg-lightblue {
-  background: #dde6e1;
-}
-
-.gradient-text {
-  background: linear-gradient(45deg, #6a11cb, #2575fc);
-  background-clip: text; 
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent;
-  color: transparent; 
-}

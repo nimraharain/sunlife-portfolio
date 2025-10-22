@@ -96,7 +96,7 @@ const App = () => {
       <div className="col-md-7 text-start">
       <h2 className="mb-4 intro-title">My Co-op Experience at Sun Life</h2>
         <p className="fade-in-text lead text-dark" style={{ marginBottom: "1.5rem" }}>
-        <strong>Hi! I’m Nimrah, and I’m currently a Digital Enterprise Coordinator co-op student at Sun Life, working with the DEET (Digital Enterprise Enablement Tools) team. I get to contribute to impactful projects that support teams across the organization, while sharpening my skills in problem-solving, UX design, and technical documentation through hands-on experience.</strong>
+        <strong>Hi! I’m Nimrah, and I’m  a Digital Transformation Coordinator co-op student at Sun Life, working with the DEET (Digital Enterprise Enablement Tools) team (From January 2025 to December 2025). I get to contribute to impactful projects that support teams across the organization, while sharpening my skills in problem-solving, UX design, and technical documentation through hands-on experience.</strong>
         </p>
         <p className="fade-in-text lead text-dark">
         <strong>This is my third co-op term, and I’m in my fourth year of Computer Science at Wilfrid Laurier University, with a minor in User Experience Design. My time at Sun Life continues to help me grow as both a developer and designer, and gives me the opportunity to make meaningful contributions to enterprise-wide tools and platforms.</strong>

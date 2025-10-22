@@ -99,7 +99,7 @@ const App = () => {
         <strong>Hi! I’m Nimrah, and I’m  a Digital Transformation Coordinator co-op student at Sun Life, working with the DEET (Digital Enterprise Enablement Tools) team (From January 2025 to December 2025). I get to contribute to impactful projects that support teams across the organization, while sharpening my skills in problem-solving, UX design, and technical documentation through hands-on experience.</strong>
         </p>
         <p className="fade-in-text lead text-dark">
-        <strong>This is my third co-op term, and I’m in my fourth year of Computer Science at Wilfrid Laurier University, with a minor in User Experience Design. My time at Sun Life continues to help me grow as both a developer and designer, and gives me the opportunity to make meaningful contributions to enterprise-wide tools and platforms.</strong>
+        <strong>I've completed 5 co-op terms in total, and I’m in my fourth year of Computer Science at Wilfrid Laurier University, with a minor in User Experience Design. My time at Sun Life continues to help me grow as both a developer and designer, and gives me the opportunity to make meaningful contributions to enterprise-wide tools and platforms.</strong>
         </p>
       </div>
       <div className="col-md-5">
